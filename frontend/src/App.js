@@ -45,12 +45,16 @@ function App() {
         }}
       >
         <div style={{ color: "grey", margin: "0 auto" }}>
+<<<<<<< HEAD
           <h1>Welcome to Sneaky,please wait while loading....</h1>
+=======
+          <h1>Welcome to Sneaky, please wait while fetching....</h1>
+>>>>>>> 15d4945397090c6227e420458f5a62e2cd971804
         </div>
         <div style={{ color: "orange", width: "200px", margin: "0 auto" }}>
           <CircularProgress
             color="secondary"
-            style={{ color: "orange", margin: "0 auto" }}
+            style={{ color: "black", margin: "0 auto" }}
           />
         </div>
       </div>
@@ -73,7 +77,7 @@ function App() {
               }}
             >
               <MostBought state={state.products} />
-              <TopRated state={state.products} />
+              {/* <TopRated state={state.products} /> */}
             </div>
           </Route>
           <Route exact path="/products">

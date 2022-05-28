@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import "./mostBought.css";
 import Product from "../Products/Product";
 import Paper from "@material-ui/core/Paper";
 import CircularProgress from "@material-ui/core/CircularProgress";
@@ -61,37 +62,9 @@ const MostBought = ({ state }) => {
     );
   }
   return (
-    <div>
-      <Paper
-        elevation={3}
-        style={{
-          width: "300px",
-          height: "40px",
-          textAlign: "center",
-          alignItems: "center",
-          padding: "5px 0",
-          borderRadius: "20px",
-          marginBottom: "-15px",
-          fontSize: "20px",
-
-          fontWeight: "700",
-          fontFamily: "Goldman",
-        }}
-      >
-        Most Sold shoes
-      </Paper>
-      <Paper
-        elevation={3}
-        style={{
-          width: "100%",
-          display: "flex",
-          flexDirection: "row",
-          flexWrap: "wrap",
-          margin: "0 auto",
-          padding: windowCheck < 420 ? "5px" : "0",
-          justifyContent: "center",
-        }}
-      >
+    <div className="container">
+      <div className="head"><h3>Most Sold shoes</h3></div>
+      <div className="cardsContainer">
         {most.slice(0, 5).map((el, index) => {
           if (el.id[0]) {
             return <Product key={index} product={el.id[0]} />;
@@ -99,7 +72,7 @@ const MostBought = ({ state }) => {
             return <p key={index}>Loading....</p>;
           }
         })}
-      </Paper>
+      </div>
     </div>
   );
 };

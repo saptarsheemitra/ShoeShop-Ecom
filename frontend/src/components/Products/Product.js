@@ -130,19 +130,27 @@ export default function Product({ product }) {
   const imgCard = () => {
     if (hover === 2) {
       return (
+        <>
+
         <CardMedia
           className={classes.media}
           image={`${product.image[1].location}`}
           title="Contemplative Reptile"
         />
+        </>
+       
       );
     } else {
       return (
-        <CardMedia
+        <>
+          
+         <CardMedia
           className={classes.media}
           image={`${product.image[0].location}`}
           title="Contemplative Reptile"
         />
+        </>
+       
       );
     }
   };
@@ -181,7 +189,7 @@ export default function Product({ product }) {
               color: "black",
             }}
           >
-            <Rating
+            {/* <Rating
               style={{
                 display: "flex",
                 paddingBottom: "15px",
@@ -191,7 +199,7 @@ export default function Product({ product }) {
               name="simple-controlled"
               readOnly
               precision={0.5}
-            />
+            /> */}
             {imgCard()}
 
             <CardContent
