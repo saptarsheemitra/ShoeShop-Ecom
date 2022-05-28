@@ -1,7 +1,11 @@
-# The Shoe Shop
-## About the app
-<br />
-This is a Ecommerce web application , allowing users to make purchase of products . In this cases it offers users to order shoes .
+# Sneaky
+
+# Description :point_left:
+Sneaky will be an e-commerce web application built specifically for small Indian Business owners who through this can list their services and products online speficaly sneakers.
+It will target it's audience by monitoring their search history and the products they usually look into.
+### Credentials for frontend login page
+**Username: admin**
+**Password: admin**
 
 ## Tech used 
 
@@ -19,10 +23,9 @@ This is a Ecommerce web application , allowing users to make purchase of product
 
 ## Preview
 <br />
-Live demo: https://theshoeshop.netlify.app/
+
 <br />
-Backend Deployed to: Heroku
-Frontend Deployed to: Netlify
+
 <br />
 <br />
 
@@ -30,7 +33,7 @@ Frontend Deployed to: Netlify
 - Lists of all products;
 - Filtering / Sorting items;
 - Search bar;
-- Reviews / Ratings;
+- Quality Assurance
 - User interface;
 - WishList products ;
 - Order tracking;
@@ -54,6 +57,15 @@ RESET_PASS = 'Password Reset Secret Token String'
 RESET_LINK = 'Change PAssword pathname f.ex in local can be : http://localhost:3000/changepassword'
 ```
 - Run npm start
+# License 
+You must not reproduce and distribute copies of the work or derivative works thereof in any medium, with or without
+modifications, and in Source or Object form.
+
+# Team Members
+1. **Saptarshee Mitra**: saptarshee08@gmail.com  
+4. **Padm Keshav**: kesavpadm2003@gmail.com
+2. **Rudhra Deep Biswas**: rudra21ultra@gmail.com
+3. **Mohammed Shabbir**: mohammedshabbir08@gmail.com
 
 
 
