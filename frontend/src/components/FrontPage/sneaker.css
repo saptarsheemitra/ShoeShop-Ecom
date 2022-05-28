@@ -1,0 +1,114 @@
+.showBG {
+  display: flex;
+  justify-self: start;
+
+  display: flex;
+  width: 90%;
+
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -150px;
+  margin-top: -45px;
+
+  position: relative;
+}
+
+.contText {
+  width: 100%;
+  height: 200px;
+  margin: 280px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.contText h1 {
+  width: 100%;
+  font-size: 45px;
+  font-family: Goldman;
+}
+.contText h2 {
+  margin-top: -35px;
+  font-size: 25px;
+  font-family: Goldman;
+}
+.imageLogo {
+  width: 70%;
+  opacity: 0.5;
+  background-size: cover;
+  transform: rotateX(360deg) rotateY(160deg);
+
+  z-index: -55;
+}
+
+.showbtn {
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 22;
+  width: 150px;
+  height: 60px;
+  padding: 20px;
+  border-radius: 15px;
+  transition: 1s;
+  font-size: 15px;
+
+  border: 1px solid orange;
+  font-weight: 600;
+  color: black;
+}
+.showbtn:hover {
+  background-color: rgb(233, 187, 102);
+  border: 1px solid grey;
+  color: black;
+}
+.showbtn:focus {
+  background-color: orange;
+  outline: none;
+  border: 1px solid grey;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .showBG {
+    display: flex;
+    justify-self: start;
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+  }
+
+  .imageLogo {
+    width: 100%;
+    margin-top: -120px;
+  }
+  .contText {
+    width: 100%;
+    height: 100px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contText h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-family: Goldman;
+  }
+  .contText h2 {
+    margin-top: 0px;
+    font-size: 25px;
+    font-family: Goldman;
+  }
+}
