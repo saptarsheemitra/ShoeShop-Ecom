@@ -24,13 +24,13 @@ const windowCheck = window.screen.width;
 
 const useStyles = makeStyles({
   root: {
-    borderRadius: "5px",
+    borderRadius: "10px",
 
     width: windowCheck < 1024 ? "45%" : "100%",
 
     maxWidth: windowCheck < 1024 ? "100%" : 250,
     maxHeight: windowCheck < 1024 ? 250 : 500,
-    margin: "15px",
+    margin: "15px 25px 0px 0px",
   },
   rootMobile: {
     borderRadius: "5px",
@@ -47,7 +47,7 @@ const useStyles = makeStyles({
   },
   cardcontainer: {
     width: windowCheck < 1024 ? "100%" : "250px",
-    height: windowCheck < 1024 ? "100%" : 500,
+    height: windowCheck < 1024 ? "100%" : "450px",
     maxWidth: windowCheck < 1024 ? "100%" : "250px",
 
     display: "flex",
@@ -189,17 +189,6 @@ export default function Product({ product }) {
               color: "black",
             }}
           >
-            {/* <Rating
-              style={{
-                display: "flex",
-                paddingBottom: "15px",
-                justifyContent: "center",
-              }}
-              value={rating}
-              name="simple-controlled"
-              readOnly
-              precision={0.5}
-            /> */}
             {imgCard()}
 
             <CardContent
@@ -225,14 +214,13 @@ export default function Product({ product }) {
               >
                 {product.name},{product.color}
               </Typography>{" "}
-              <Typography
-                gutterBottom
-                variant="h6"
-                component="h2"
-                className={classes.price}
-              >
-                {product.price}€
-              </Typography>
+              <div className="priceContainer">
+
+              <div className="priceMain">
+              </div>
+              {product.price}€
+              </div>
+
             </CardContent>
           </Link>
         </CardActionArea>
@@ -249,7 +237,7 @@ export default function Product({ product }) {
           )}
         </CardActions>
       </Card>
-      <DialogWindow open={open} handleClose={handleClose} product={product} />
+      {/* <DialogWindow open={open} handleClose={handleClose} product={product} /> */}
     </Paper>
   );
 }
