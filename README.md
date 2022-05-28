@@ -22,12 +22,8 @@ It will target it's audience by monitoring their search history and the products
 
 
 ## Preview
-<br />
+### Landing Page
 
-<br />
-
-<br />
-<br />
 
 ## Features of the application
 - Lists of all products;
