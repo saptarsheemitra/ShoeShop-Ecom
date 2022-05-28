@@ -10,6 +10,7 @@ dotenv.config();
 app.use(cors());
 const nodemailer = require("nodemailer");
 
+
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Credentials", true);
@@ -30,15 +31,15 @@ app.use(
 //start server
 const dbUrl = process.env.DB_CONNECT;
 const PORT = process.env.PORT || 4000;
-mongoose
-  .connect(dbUrl, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then((result) => app.listen(PORT))
-  .catch((err) => {
-    console.log("error", err);
-  });
+// mongoose
+//   .connect(dbUrl, {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+//   })
+//   .then((result) => app.listen(PORT))
+//   .catch((err) => {
+//     console.log("error", err);
+//   });
 
 //Middleware
 app.use(express.json()); //Gledai tova da e predi routes shtot ne bachka
@@ -56,4 +57,7 @@ app.use("/api/products", productsRoute);
 app.use("/uploads", express.static("uploads"));
 app.use("/api/payment", paymentRoute);
 
+app.listen(4000, () => {
+  console.log("Server started on port 9000");
+});
 

@@ -45,7 +45,7 @@ function App() {
         }}
       >
         <div style={{ color: "grey", margin: "0 auto" }}>
-          <h1>Welcome to Shoe Sho,please wait while fetching....</h1>
+          <h1>Welcome to Sneaky,please wait while loading....</h1>
         </div>
         <div style={{ color: "orange", width: "200px", margin: "0 auto" }}>
           <CircularProgress
