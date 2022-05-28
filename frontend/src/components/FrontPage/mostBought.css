@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+
+}
+.head{
+    font-size: large;
+    padding: 19px 0px 4px 0px;
+}
+.cardsContainer{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}

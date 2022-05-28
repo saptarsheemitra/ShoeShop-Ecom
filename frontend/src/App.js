@@ -73,7 +73,7 @@ function App() {
               }}
             >
               <MostBought state={state.products} />
-              <TopRated state={state.products} />
+              {/* <TopRated state={state.products} /> */}
             </div>
           </Route>
           <Route exact path="/products">
