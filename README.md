@@ -1,7 +1,7 @@
-# The Shoe Shop
+# Sneaky
 ## About the app
 <br />
-This is a Ecommerce web application , allowing users to make purchase of products . In this cases it offers users to order shoes .
+This is a Ecommerce web application to sell shoes both new and first copies, allowing users to make purchase of products . In this cases it offers users to order shoes .
 
 ## Tech used 
 
@@ -19,10 +19,9 @@ This is a Ecommerce web application , allowing users to make purchase of product
 
 ## Preview
 <br />
-Live demo: https://theshoeshop.netlify.app/
+
 <br />
-Backend Deployed to: Heroku
-Frontend Deployed to: Netlify
+
 <br />
 <br />
 
@@ -30,7 +29,7 @@ Frontend Deployed to: Netlify
 - Lists of all products;
 - Filtering / Sorting items;
 - Search bar;
-- Reviews / Ratings;
+- Quality Assurance
 - User interface;
 - WishList products ;
 - Order tracking;
