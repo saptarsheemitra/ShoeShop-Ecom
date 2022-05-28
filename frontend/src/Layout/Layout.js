@@ -468,27 +468,8 @@ export default function Layout(props) {
               backgroundColor: "black",
             }}
           >
-            <Paper
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "space-around",
-                position: "absolute",
-                width: "100%",
-                height: openNav ? "40px" : "0px",
-                // zIndex: "1",
-                backgroundColor: "black",
-                borderRadius: "15px",
-                paddingBottom: "10px",
-
-                top: 52,
-                color: "white",
-
-                transition: "0.5s",
-                visibility: openNav ? "visible" : "hidden",
-              }}
-            >
-              {openNav && (
+            
+              {/* {openNav && (
                 <div
                   style={{
                     width: "80%",
@@ -516,9 +497,9 @@ export default function Layout(props) {
                     <p>All Shoes</p>
                   </Link>{" "}
                 </div>
-              )}
-            </Paper>
-            <IconButton
+              )} */}
+            
+            {/* <IconButton
               onClick={() => setOpenNav(!openNav)}
               edge="start"
               className={classes.menuButton}
@@ -526,13 +507,13 @@ export default function Layout(props) {
               aria-label="open drawer"
             >
               {openNav ? <CancelPresentationIcon /> : <MenuIcon />}
-            </IconButton>
+            </IconButton> */}
             <Typography className={classes.title} variant="h6" noWrap>
               <Link
                 to={{ pathname: `/` }}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                The Shoe Shop
+                Sneaky
               </Link>
             </Typography>
 
@@ -600,6 +581,7 @@ export default function Layout(props) {
                   </span>
                 </IconButton>
               ) : (
+                
                 <div className={classes.spanUser}>
                   <span
                     className={classes.login}
@@ -611,11 +593,34 @@ export default function Layout(props) {
                     className={classes.login}
                     onClick={() => setopenRegister(true)}
                   >
-                    / Sign up
+                    / Sign up &nbsp; &nbsp; &nbsp; &nbsp;
                   </span>
                 </div>
+
+                
+                
               )}
             </div>
+
+            <div className={classes.spanUser}>
+            <Link
+                to={{ pathname: `/products`,state:"men" }}
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                First Copy &nbsp;
+              </Link>
+
+              <Link
+                to={{ pathname: `/products`,state:"women" }}
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                Second Hand &nbsp;
+              </Link>
+            
+
+               
+                
+                </div>
             <div className={classes.sectionMobile}>
               <IconButton
                 aria-label="show more"
