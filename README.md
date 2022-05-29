@@ -1,7 +1,6 @@
 # Sneaky
 
-
-![Site Demo](https://devpost.com/software/sneaky-ecom)
+![Site Demo](https://github.com/saptarsheemitra/Sneaky-Ecom/blob/main/frontend/public/ezgif.com-gif-maker%20(1).gif)
 
 # Description :point_left:
 Sneaky will be an e-commerce web application built specifically for small Indian Business owners who through this can list their services and products online speficaly sneakers.
