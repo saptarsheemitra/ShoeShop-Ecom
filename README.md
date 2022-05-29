@@ -1,7 +1,7 @@
 # Sneaky
 
 #Video Demo
-![Site Demo](https://youtu.be/LFGQ4oP8Xy0)
+![Site Demo](https://drive.google.com/file/d/1xdg4IO9djEjB16mELIBemuS-R-D4ySTU/view?usp=sharing)
 
 # Description :point_left:
 Sneaky will be an e-commerce web application built specifically for small Indian Business owners who through this can list their services and products online speficaly sneakers.
