@@ -22,8 +22,7 @@ It will target it's audience by monitoring their search history and the products
 
 
 ## Preview
-### Landing Page
-https://github.com/saptarsheemitra/Sneaky-Ecom/blob/main/frontend/public/landing1.png
+![Landing Page](https://github.com/saptarsheemitra/Sneaky-Ecom/blob/main/frontend/public/landing1.png)
 
 ## Features of the application
 - Lists of all products;
