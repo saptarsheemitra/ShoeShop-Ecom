@@ -23,17 +23,17 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 const filterList = {
   colors: [
-    "red",
-    "black",
-    "yellow",
-    "white",
-    "violet",
-    "grey",
-    "pink",
-    "orange",
+    "Red",
+    "Black",
+    "Yellow",
+    "White",
+    "Violet",
+    "Grey",
+    "Pink",
+    "Orange",
   ],
-  brands: ["nike", "vans", "adidas", "jordan"],
-  category: ["men", "women"],
+  brands: ["Nike", "Vans", "Adidas", "Jordan"],
+  category: ["First Copy", "Second Copy"],
 };
 const windowCheck = window.screen.width;
 const useStyles = makeStyles((theme) => ({

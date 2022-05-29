@@ -1,6 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import DialogWindow from "./ProductID/DialogWindow ";
+import mainLogo from "./imghome.png"
 
 import {
   Card,
@@ -128,6 +129,7 @@ export default function Product({ product }) {
   const [hover, setHover] = useState(1);
 
   const imgCard = () => {
+    console.log(`${product.image[0].location}`)
     if (hover === 2) {
       return (
         <>
@@ -190,6 +192,7 @@ export default function Product({ product }) {
             }}
           >
             {imgCard()}
+            {/* <img src={mainLogo} alt="" className="home__img" /> */}
 
             <CardContent
               style={{
