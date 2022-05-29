@@ -1,5 +1,8 @@
 # Sneaky
 
+#Video Demo
+![Site Demo](https://youtu.be/LFGQ4oP8Xy0)
+
 # Description :point_left:
 Sneaky will be an e-commerce web application built specifically for small Indian Business owners who through this can list their services and products online speficaly sneakers.
 It will target it's audience by monitoring their search history and the products they usually look into.
@@ -22,6 +25,7 @@ It will target it's audience by monitoring their search history and the products
 
 
 ## Preview
+###Landing Page
 ![Landing Page](https://github.com/saptarsheemitra/Sneaky-Ecom/blob/main/frontend/public/landing1.png)
 
 ## Features of the application
